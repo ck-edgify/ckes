@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Create directory if it doesn't exist
-mkdir -p /edgify_agent/images
+sudo mkdir -p /edgify_agent/images
 
 # Change directory to /edgify_agent/images
 cd /edgify_agent/images || exit
@@ -19,13 +19,13 @@ images=(
 
 # Loop through each image URL and download it
 for url in "${images[@]}"; do
-    wget -q --show-progress "$url"
+    sudo wget -q --show-progress "$url"
 done
 
 echo "All files downloaded successfully."
 
 # Create an empty config.json file
 cd /edgify_agent || exit
-touch config.json
+sudo touch config.json
 
 echo "config.json created successfully."
