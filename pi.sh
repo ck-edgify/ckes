@@ -11,6 +11,7 @@ images=(
     "https://github.com/ck-edgify/ckes/raw/main/FireEnergy.png"
     "https://github.com/ck-edgify/ckes/raw/main/GrassEnergy.png"
     "https://github.com/ck-edgify/ckes/raw/main/PsychicEnergy.png"
+    "https://github.com/ck-edgify/ckes/raw/main/WaterEnergy.png"
     "https://github.com/ck-edgify/ckes/raw/main/ShinxCard.png"
     "https://github.com/ck-edgify/ckes/raw/main/ShinxCardBlackDot.png"
 )
